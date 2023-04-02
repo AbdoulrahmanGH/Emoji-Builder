@@ -1,0 +1,135 @@
+
+#title{
+    font-size: 44px;
+    text-align: center;
+    font-family: "Poppins";
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 7%;
+    transform: translate(-50%,-50%);
+}
+
+body {
+  margin: 0;
+}
+.row {
+  background: #f1c40f;;
+  height: 10vh;
+  width: 100%;
+  animation: fade 5s infinite;
+  animation-direction: alternate;
+}
+.row-1 {
+}
+.row-2 {
+  animation-delay:0.5s;
+}
+.row-3 {
+  animation-delay:1s;
+}
+.row-4 {
+  animation-delay:1.5s;
+}
+.row-5 {
+  animation-delay:2s;
+}
+.row-6 {
+  animation-delay:2.5s;
+}
+.row-7 {
+  animation-delay:3s;
+}
+.row-8 {
+  animation-delay:3.5s;
+}
+
+.row-9 {
+  animation-delay:4s;
+}
+.row-10 {
+  animation-delay:4.5s;
+}
+
+
+
+@keyframes fade {   
+  from { background: #ffcc00; }
+  to { background: #fffbcb; }
+}
+
+.container{
+    background-color:azure;
+    height: 31.25em;
+    width: 25em;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 55%;
+    border-radius: 0.8em;
+    box-shadow: 0 1.87em 4em(86,68,9,0.3);    
+}   
+
+.buttons-container{
+    height: 30%;
+    width: 92%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 1em;
+}
+
+.buttons-container button{
+    font-size: em;
+    gap: 0.5em;
+    padding: 0.8em 1em;
+    border-radius: 2em;
+    border: none;
+    background-color: gold;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.emoji-container{
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.emoji{
+    height: 14.37em;
+    width: 14.37em;
+    background-color: gold;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+
+
+.eyes,
+.eyebrows,
+.mouth{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+
+}
+
+.eyes{
+    top: 5em;
+}
+.eyebrows{
+    top: 3.12em;
+}
+.mouth{
+    top: 7.5em;
+}
+
+.buttons-container button:hover {
+    background-color: rgb(255, 250, 91);
+  }
